@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .landing-section {
+      background-image: url('https://via.placeholder.com/1600x800'); /* Replace with your own image URL */
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px;
+      color: #ffffff;
+    }
+
+    .landing-section h1 {
+      font-size: 3rem;
+      margin: 0 0 1rem;
+    }
+
+    .landing-section p {
+      font-size: 1.2rem;
+      margin: 0 0 2rem;
+      max-width: 600px;
+    }
+
+    .btn {
+      background-color: #04AA6D;
+      color: #fff;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #039e63;
+    }
+
+    @media (max-width: 600px) {
+      .landing-section h1 {
+        font-size: 2rem;
+      }
+
+      .landing-section p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="landing-section">
+    <h1>Welcome to Our Site</h1>
+    <p>Your journey to something amazing starts here. Explore what we have to offer and take the first step today.</p>
+    <a href="#get-started" class="btn">Get Started</a>
+  </section>
+
+</body>
+</html>
